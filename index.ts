@@ -70,4 +70,4 @@ function onChange<T extends keyof IState, K>(name: T, value: K): void {
   console.log({ [name]: value });
 }
 
-onChange("email", "yoonwonyoul@webchemist.net");
+onChange("email", "lazyker@naver.com");
