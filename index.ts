@@ -43,7 +43,7 @@ const welcome = new WelcomeMessage("Lee", 26);
 console.log(welcome.name);
 welcome.say();
 console.log(welcome.names);
-welcome.names = "Yoon";
+welcome.names = "lazyker";
 console.log(welcome.names);
 
 /* =================================== [ Generic ] ================================ */
@@ -70,4 +70,4 @@ function onChange<T extends keyof IState, K>(name: T, value: K): void {
   console.log({ [name]: value });
 }
 
-onChange("email", "yoonwonyoul@webchemist.net");
+onChange("email", "lazyker@naver.com");

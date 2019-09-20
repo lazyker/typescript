@@ -5,7 +5,7 @@
     "output"
   ],
   "compilerOptions": {
-    "target": "es5", // 변환을 다음과 같이 한다.
+    "target": "es6", // 변환을 다음과 같이 한다.
     "module": "commonjs",
     "outDir": "output", // 변환 이후에 내보낼 폴더를 지정합니다.
     "sourceMap": true,
